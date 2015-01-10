@@ -1,0 +1,5 @@
+
+
+n  \d          * :YcmShowDetailedDiagnostic<CR>
+n  gx            <Plug>NetrwBrowseX
+n  <Plug>NetrwBrowseX * :call netrw#NetrwBrowseX(expand("<cWORD>"),0)<CR>
