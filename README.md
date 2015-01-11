@@ -11,7 +11,6 @@ Run following commands in shell
 	rm -rf .vim
 	git clone https://github.com/uchiha-yuki/.vim
 	cd .vim
-	# change it to 12.04 if you have Ubuntu 12.04 LTS
-	platform=14.04 ./install.sh
+	sudo ./install.sh
 	
 	
