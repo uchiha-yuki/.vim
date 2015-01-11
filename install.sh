@@ -6,9 +6,9 @@ fi
 
 cd
 rm .vimrc
-ln -s .vimrc .vim/.vimrc
+ln -s .vim/.vimrc .vimrc
 cd .vim
 git submodule init
 git submodule update --remote
 vim +PluginInstall +qall
-source install_ycm.sh 
+source ./install_ycm.sh 
