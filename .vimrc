@@ -57,4 +57,7 @@ let g:lt_location_list_toggle_map='<leader>l'
 " yuki
 set clipboard+=unnamed
 set nu
-
+set tabstop=4
+set shiftwidth=4
+set softtabstop=4
+set paste
