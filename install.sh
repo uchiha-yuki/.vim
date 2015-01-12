@@ -13,3 +13,8 @@ git submodule init
 git submodule update --remote
 vim +PluginInstall +qall
 . ./install_ycm.sh
+
+read -p "Do you want to update Vim to the latest version? (y/n)" answer
+if [ "$answer" == "y" ]; then
+	sudo ./update_vim.sh
+fi
