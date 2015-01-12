@@ -7,10 +7,11 @@
 
 Run following commands in shell
 	
-	cd
-	rm -rf .vim
-	git clone https://github.com/uchiha-yuki/.vim
-	cd .vim
-	sudo ./install.sh
-	
+```
+cd
+rm -rf .vim
+git clone https://github.com/uchiha-yuki/.vim
+cd .vim
+sudo ./install.sh
+```	
 	
