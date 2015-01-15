@@ -61,3 +61,4 @@ set tabstop=4
 set shiftwidth=4
 set softtabstop=4
 set paste
+set backspace=indent,eol,start
