@@ -32,6 +32,7 @@ Plugin 'scrooloose/nerdtree'
 Plugin 'jistr/vim-nerdtree-tabs'
 Plugin 'vim-scripts/Conque-Shell'
 Plugin 'Valloric/ListToggle'
+Plugin 'majutsushi/tagbar'
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
@@ -62,3 +63,8 @@ set shiftwidth=4
 set softtabstop=4
 set paste
 set backspace=indent,eol,start
+
+" yuki
+nnoremap <leader>p :YcmCompleter GoToDeclaration<CR>
+nnoremap <leader>d :YcmCompleter GoToDefinition<CR>
+nnoremap <leader>t :TagbarToggle<CR>
