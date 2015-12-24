@@ -12,6 +12,7 @@ cd .vim
 git submodule init
 git submodule update --remote
 vim +PluginInstall +qall
-. ./install_ycm.sh
+# . is a synonym of source
+. install_ycm.sh
 
-read -p "perhaps you have to create a system wide vimrc"
+read -p "you have successfully configured vim for the current user"
