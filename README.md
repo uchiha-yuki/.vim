@@ -1,6 +1,7 @@
 ## DESCRIPTION
 
 * This repository is used to add some plugins and configure the vim software
+* PS: this repo can be installed from https://github.com/uchiha-yuki/environment/install_vim_environment.sh
 
 ## PREREQUISITES
 	
